@@ -1,0 +1,620 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div h1 {
+  padding: 1.2rem;
+  color: #6c3032;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 58px;
+}
+
+/* -- Inicio Cabecalho -- */
+
+.cabecalho {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* position: fixed;
+  z-index: 1000; */
+}
+
+.cabecalho img {
+  width: 180px;
+  height: 200;
+}
+
+.cabecalho-div {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cabecalho a {
+  text-decoration: none;
+  color: #6c3032;
+  font-size: 32px;
+  position: relative; /* Necessário para o ::after */
+}
+
+.cabecalho a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Ajuste conforme o espaçamento desejado */
+  width: 0;
+  height: 4px; /* Espessura da barra */
+  background: #6c3032; /* Cor da barra */
+  transition: width 0.3s;
+  border-radius: 10px;
+}
+
+.cabecalho a:hover::after {
+  width: 100%;
+}
+
+/* -- Fim Cabecalho -- */
+
+/* -- Inicio Banner -- */
+
+.banner {
+  background-image: url("public/imagem-banner.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 420px;
+}
+
+/* -- Fim Banner -- */
+
+/* -- Inicio Confeitaria -- */
+
+.loja {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lojaDiv {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.lojaDivItem {
+  background: linear-gradient(90deg, #73a6a7 20%, #c281b6 100%);
+  border-radius: 22px;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.lojaDivi-Item-img1 {
+  background-size: cover;
+  background-image: url(public/img-loja/bolos-festas.png);
+}
+
+.lojaDivi-Item-img2 {
+  background-size: cover;
+  background-image: url(public/img-loja/doces-festas.png);
+}
+
+.lojaDivi-Item-img3 {
+  background-size: cover;
+  background-image: url(public/img-loja/bolo-caseiro.png);
+}
+
+.lojaDivi-Item-img4 {
+  background-size: cover;
+  background-image: url(public/img-loja/biscoitos.png);
+}
+
+.lojaDivi-Item-img5 {
+  background-size: cover;
+  background-image: url(public/img-loja/doces-personalizados.jpg);
+}
+
+.lojaDivi-Item-img5 {
+  background-size: cover;
+  background-image: url(public/img-loja/doces-personalizados.jpg);
+}
+
+.lojaDivi-Item-img5 {
+  background-size: cover;
+  background-image: url(public/img-loja/doces-personalizados.jpg);
+}
+
+.lojaDivi-Item-img6 {
+  background-size: cover;
+  background-image: url(public/img-loja/topper-personalizado.png);
+}
+
+.lojaDivItem button {
+  margin-bottom: 1rem;
+  width: 300px;
+  background-color: #6c3032;
+  border-radius: 22px;
+  color: aliceblue;
+  padding: 1rem;
+  font-size: 26px;
+}
+
+/* -- Fim Confeitaria -- */
+
+/* -- Inicio Sobre Nós -- */
+
+.sobreNos {
+  width: 100%;
+  background: linear-gradient(90deg, #73a6a7 20%, #c281b6 100%);
+  color: white;
+}
+
+.sobreNos p {
+  margin-top: 2rem;
+  font-style: italic;
+  font-size: 34px;
+}
+
+.sobreNos strong {
+  color: #6c3032;
+}
+
+.sobreNos-item-textoForte {
+  text-align: center;
+  color: #6c3032;
+  font-weight: 600;
+}
+.sobreNos-item {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.sobreNos-item h2 {
+  font-size: 48px;
+  padding: 2rem;
+}
+
+.sobreNos-item-div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+/* -- Fim Sobre Nós -- */
+
+/* --Inicio Galeria -- */
+
+.galeria {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.galeriaImagem {
+  margin: 1rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.galeriaImagem img {
+  background: linear-gradient(90deg, #73a6a7 20%, #c281b6 100%);
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.galeriaImagem img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+/* -- Fim Galeria -- */
+
+/* -- Inicio Pedido -- */
+
+.container-pedido {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pedido-texto {
+  margin: 1.2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.container-faq {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.faq-item-titulo {
+  margin: 0rem 2rem;
+  background: linear-gradient(90deg, #73a6a7 20%, #c281b6 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  font-size: 2em;
+  color: #6c3032;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.faq-item-titulo:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.faq-item-titulo h3 {
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+.faq-caixa {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+  font-size: 22px;
+  color: #6c3032;
+  gap: 1rem;
+}
+
+.faq-caixa-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 12px;
+}
+
+.faq-caixa-item p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.ul-espaco {
+  padding: 0rem 2rem;
+}
+
+/* -- Fim Pedido -- */
+
+/* -- Inicio Footer -- */
+
+.rodape-direitos {
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rodape {
+  background: linear-gradient(90deg, #73a6a7 20%, #c281b6 100%);
+  color: #6c3032;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.rodape-infos {
+  margin: 22px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodape-item {
+  text-align: center;
+  width: 80%;
+  margin: 18px;
+}
+
+.rodape-item h3 {
+  margin-bottom: 18px;
+  font-size: 40px;
+}
+
+.rodape-item a {
+  text-decoration: none;
+  color: #6c3032;
+}
+
+.infos,
+.linksrapidos,
+.contato {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  gap: 2rem;
+  font-size: 28px;
+}
+
+.infos-icones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contato-item {
+  margin-left: 3rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 22px;
+}
+
+/* Fim Footer */
+
+/* Inicio CSS loja */
+
+div ul,
+ol {
+  text-align: left;
+}
+
+.container-loja {
+  text-align: center;
+  color: #6c3032;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.facaPedido {
+  margin: 2rem 0rem;
+}
+
+.facaPedido a {
+  text-decoration: none;
+  color: white;
+  background-color: #6c3032;
+  border-radius: 12px;
+  font-size: 26px;
+  padding: 1.4rem 4rem;
+}
+
+.facaPedido a:hover {
+  background-color: #6c3032d5;
+}
+
+.container-loja h3 {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+.container-loja-div h4 {
+  border-radius: 50px;
+  padding: 6px;
+  font-size: 34px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+
+.container-div-item1 {
+  background: linear-gradient(90deg, #73a6a7d2 20%, #c281b6a9 100%);
+  border-radius: 22px;
+  font-size: 20px;
+  padding: 1.4rem 1rem;
+}
+
+.container-div-item2 {
+  padding: 1rem 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.container-div-item2 p {
+  background-color: #6c3032;
+  color: white;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.div-descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0rem;
+}
+
+/* Estilos para a imagem dentro do modal */
+.div-imagem img {
+  width: 100%; /* Faz com que a imagem ocupe 100% da largura do container */
+  height: auto; /*Mantém a proporção da imagem*/
+  object-fit: contain; /* Garante que a imagem se ajuste dentro do container sem distorcer */
+}
+
+.item-horizontal {
+  display: flex;
+  gap: 1rem;
+}
+
+.italico {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.biscoito-decorados-desc {
+  margin-bottom: 1.2rem;
+  padding: 1rem;
+  background: linear-gradient(90deg, #73a6a7d2 20%, #c281b6a9 100%);
+  font-size: 14px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+}
+
+.container-biscoito-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.item-horizontal div {
+  width: 100%;
+}
+
+/* -- responsivo -- */
+
+/* Responsividade para tablets */
+@media (max-width: 1024px) {
+  div h1 {
+    font-size: 38px;
+    padding: 0.8rem;
+  }
+
+  .cabecalho img {
+    width: 120px;
+    height: auto;
+  }
+
+  .cabecalho a {
+    font-size: 22px;
+  }
+
+  .banner {
+    height: 250px;
+  }
+
+  .lojaDiv {
+    grid-template-columns: 1fr;
+  }
+
+  .lojaDivItem {
+    height: 220px;
+  }
+
+  .galeriaImagem img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .sobreNos-item h2 {
+    font-size: 32px;
+    padding: 1rem;
+  }
+
+  .sobreNos p {
+    font-size: 22px;
+  }
+
+  .faq-item-titulo {
+    font-size: 1.2em;
+    padding: 0.6rem;
+  }
+
+  .faq-caixa {
+    font-size: 16px;
+    padding: 0 1rem;
+  }
+
+  .rodape-item h3 {
+    font-size: 28px;
+  }
+
+  .infos,
+  .linksrapidos,
+  .contato {
+    font-size: 18px;
+  }
+}
+
+/* Responsividade para celulares */
+@media (max-width: 600px) {
+  .cabecalho {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cabecalho img {
+    width: 200px;
+    height: 220;
+  }
+
+  .cabecalho-div {
+    display: none;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .sobreNos {
+    text-align: center;
+    padding: 2px;
+  }
+
+  .sobreNos-item {
+    margin-top: 0;
+  }
+
+  .sobreNos-item-div {
+    width: 96%;
+    gap: 1rem;
+  }
+
+  .container-pedido {
+    padding: 0;
+  }
+
+  .pedido-texto img {
+    display: none;
+  }
+
+  .facaPedido a {
+    font-size: 20px;
+  }
+
+  .rodape-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contato-item {
+    margin: 0;
+  }
+
+  .rodape-direitos {
+    text-align: center;
+    font-size: 18px;
+  }
+}
