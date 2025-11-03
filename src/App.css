@@ -36,7 +36,7 @@ div h1 {
 .cabecalho a {
   text-decoration: none;
   color: #6c3032;
-  font-size: 36px;
+  font-size: 34px;
   position: relative; /* Necessário para o ::after */
 }
 
