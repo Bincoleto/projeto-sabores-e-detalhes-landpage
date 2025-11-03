@@ -7,7 +7,7 @@ function TopperDecorativos(){
             <div className="container-biscoito-desc">
                 <div className="item-horizontal">
                     <div className="div-imagem">
-                        <img src="public/img-topperdecorativo/topper camada simples.jpg" alt="Topper camada simples"/>
+                        <img src="public/img-topper/topper camada simples.jpg" alt="Topper camada simples"/>
                     </div>
 
                     <div className="div-descricao">
@@ -31,7 +31,7 @@ function TopperDecorativos(){
 
                 <div className="item-horizontal">
                     <div className="div-imagem">
-                        <img src="public/img-topperdecorativo/topper em camadas.jpg" alt="Topper camada simples"/>
+                        <img src="public/img-topper/topper em camadas.jpg" alt="Topper camada simples"/>
                     </div>
 
                     <div className="div-descricao">

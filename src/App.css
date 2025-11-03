@@ -28,7 +28,7 @@ div h1 {
 }
 
 .cabecalho-div {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
 }
@@ -36,7 +36,7 @@ div h1 {
 .cabecalho a {
   text-decoration: none;
   color: #6c3032;
-  font-size: 32px;
+  font-size: 36px;
   position: relative; /* Necessário para o ::after */
 }
 
