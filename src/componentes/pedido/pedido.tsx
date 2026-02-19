@@ -13,7 +13,7 @@ function Pedido() {
         <div>
             <div className="container-pedido">
                 <div className="pedido-texto">
-                    <img src="/Imagem-carrinho-compra.png" alt="Carrinho" />
+                    <img src="/imagem-carrinho-compra.png" alt="Carrinho" />
                     <h1>Como fazer seu pedido</h1>
                 </div>
 
@@ -23,7 +23,7 @@ function Pedido() {
                         <div className="faq-item-titulo"
                             onClick={() => setMostrarFaq(!mostrarFaq)}
                             style={{ cursor: "pointer" }}>
-                            <img src="public/img-faq/caledario.png" alt="Calendario" />
+                            <img src="/img-faq/caledario.png" alt="Calendario" />
                             <h3>Prazos e Pagamentos</h3>
                         </div>
 
@@ -52,7 +52,7 @@ function Pedido() {
                         <div className="faq-item-titulo"
                             onClick={() => setMostraFormaPagamento(!mostrarFormaPagamento)}
                             style={{ cursor: "pointer" }}>
-                            <img src="public/img-faq/cartao.png" alt="Calendario" />
+                            <img src="/img-faq/cartao.png" alt="Calendario" />
                             <h3>Formas de pagamentos</h3>
                         </div>
 
@@ -76,7 +76,7 @@ function Pedido() {
                         <div className="faq-item-titulo"
                             onClick={() => setMostraRetiradaEntrega(!mostrarRetiradaEntrega)}
                             style={{ cursor: "pointer" }}>
-                            <img src="public/img-faq/retirada.png" alt="Retirada e Entrega" />
+                            <img src="/img-faq/retirada.png" alt="Retirada e Entrega" />
                             <h3>Retirada e Entrega</h3>
                         </div>
 
@@ -103,7 +103,7 @@ function Pedido() {
                         <div className="faq-item-titulo"
                             onClick={() => setMostraAlteracao(!mostrarAlteracao)}
                             style={{ cursor: "pointer" }}>
-                            <img src="public/img-faq/Atualizar.png" alt="Retirada e Entrega" />
+                            <img src="/img-faq/Atualizar.png" alt="Retirada e Entrega" />
                             <h3>Alterações e Cancelamentos</h3>
                         </div>
 
@@ -131,7 +131,7 @@ function Pedido() {
                         <div className="faq-item-titulo"
                             onClick={() => setMostraPersonalizacao(!mostrarPersonalizacao)}
                             style={{ cursor: "pointer" }}>
-                            <img src="public/img-faq/personalizado.png" alt="Personalização" />
+                            <img src="/img-faq/personalizado.png" alt="Personalização" />
                             <h3>Personalização</h3>
                         </div>
 
@@ -162,6 +162,7 @@ function Pedido() {
 }
 
 export default Pedido;
+
 
 
 
