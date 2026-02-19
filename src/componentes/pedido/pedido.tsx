@@ -13,7 +13,7 @@ function Pedido() {
         <div>
             <div className="container-pedido">
                 <div className="pedido-texto">
-                    <img src="public/Imagem-carrinho-compra.png" alt="Carrinho" />
+                    <img src="./public/Imagem-carrinho-compra.png" alt="Carrinho" />
                     <h1>Como fazer seu pedido</h1>
                 </div>
 
@@ -162,3 +162,4 @@ function Pedido() {
 }
 
 export default Pedido;
+
