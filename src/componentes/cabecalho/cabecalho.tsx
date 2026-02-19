@@ -2,7 +2,7 @@ function Cabecalho() {
   return (
     <>
       <div className="cabecalho">
-        <img src="public/imagem-cabecalho.png" alt="Sabores & Detalhes" />
+        <img src="/imagem-cabecalho.png" alt="Sabores & Detalhes" />
         <div className="cabecalho-div">
           <a href="./">Home</a>
           <a href="#loja">Confeitaria</a>
@@ -18,3 +18,4 @@ function Cabecalho() {
 }
 
 export default Cabecalho;
+
