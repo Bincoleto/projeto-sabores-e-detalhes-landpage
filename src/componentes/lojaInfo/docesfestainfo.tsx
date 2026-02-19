@@ -13,7 +13,7 @@ function DocesFesta(){
                         <Row xs={3}>
                             <Col>
                                 <div className="div-imagem">
-                                    <img src="public/img-docesfesta/brigadeiro tradicional.jpg" alt="Brigadeiro Tradicional" />
+                                    <img src="/img-docesfesta/brigadeiro tradicional.jpg" alt="Brigadeiro Tradicional" />
                                 </div>
 
                                 <div className="div-descricao">
@@ -25,7 +25,7 @@ function DocesFesta(){
 
                             <Col>
                                 <div className="div-imagem">
-                                    <img src="public/img-docesfesta/beijinho.jpg" alt="Beijinho" />
+                                    <img src="/img-docesfesta/beijinho.jpg" alt="Beijinho" />
                                 </div>
 
                                 <div className="div-descricao">
@@ -37,7 +37,7 @@ function DocesFesta(){
 
                             <Col>
                                 <div className="div-imagem">
-                                    <img src="public/img-docesfesta/camafeo.jpg" alt="Camefeo" />
+                                    <img src="/img-docesfesta/camafeo.jpg" alt="Camefeo" />
                                 </div>
 
                                 <div className="div-descricao">
@@ -49,7 +49,7 @@ function DocesFesta(){
 
                             <Col>
                                 <div className="div-imagem">
-                                    <img src="public/img-docesfesta/supresa de uva.jpg" alt="Supresa de Uva" />
+                                    <img src="/img-docesfesta/supresa de uva.jpg" alt="Supresa de Uva" />
                                 </div>
 
                                 <div className="div-descricao">
@@ -61,7 +61,7 @@ function DocesFesta(){
 
                             <Col>
                                 <div className="div-imagem">
-                                    <img src="public/img-docesfesta/brigadeiro gourme.jpg" alt="Brigadeiro Gourmet" />
+                                    <img src="/img-docesfesta/brigadeiro gourme.jpg" alt="Brigadeiro Gourmet" />
                                 </div>
 
                                 <div className="div-descricao">
@@ -73,7 +73,7 @@ function DocesFesta(){
 
                             <Col>
                                 <div className="div-imagem">
-                                    <img src="public/img-docesfesta/brigadeiro de leite ninho.jpg" alt="Brigadeiro de Leite Ninho" />
+                                    <img src="/img-docesfesta/brigadeiro de leite ninho.jpg" alt="Brigadeiro de Leite Ninho" />
                                 </div>
 
                                 <div className="div-descricao">
@@ -85,7 +85,7 @@ function DocesFesta(){
 
                             <Col>
                                 <div className="div-imagem">
-                                    <img src="public/img-docesfesta/bicho de pe.jpg" alt="Bicho de Pé" />
+                                    <img src="/img-docesfesta/bicho de pe.jpg" alt="Bicho de Pé" />
                                 </div>
 
                                 <div className="div-descricao">
@@ -97,7 +97,7 @@ function DocesFesta(){
 
                             <Col>
                                 <div className="div-imagem">
-                                    <img src="public/img-docesfesta/caixinha de docinhos.jpg" alt="Caixa de Docinhos" />
+                                    <img src="/img-docesfesta/caixinha de docinhos.jpg" alt="Caixa de Docinhos" />
                                 </div>
 
                                 <div className="div-descricao">
@@ -109,7 +109,7 @@ function DocesFesta(){
 
                             <Col>
                                 <div className="div-imagem">
-                                    <img src="public/img-docesfesta/alfajor.jpg" alt="Alfajor" />
+                                    <img src="/img-docesfesta/alfajor.jpg" alt="Alfajor" />
                                 </div>
 
                                 <div className="div-descricao">

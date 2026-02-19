@@ -11,16 +11,16 @@ function RodaPe() {
               </div>
               <div id="redesociais" className="infos-icones">
                 <a href="">
-                  <img src="public/footerimg/facebook.png" alt="Faceook" />
+                  <img src="/footerimg/facebook.png" alt="Faceook" />
                 </a>
                 <a
                   href="https://www.instagram.com/saboresedetalhes/"
                   target="_blank"
                 >
-                  <img src="public/footerimg/instagram.png" alt="Instagram" />
+                  <img src="/footerimg/instagram.png" alt="Instagram" />
                 </a>
                 <a href="">
-                  <img src="public/footerimg/message.png" alt="Mensamge" />
+                  <img src="/footerimg/message.png" alt="Mensamge" />
                 </a>
               </div>
             </div>
@@ -39,15 +39,12 @@ function RodaPe() {
             <h3 id="contato">Contato</h3>
             <div className="contato">
               <div className="contato-item">
-                <img
-                  src="public/footerimg/smartphone.png"
-                  alt="Imagem telefone"
-                />
+                <img src="/footerimg/smartphone.png" alt="Imagem telefone" />
                 <p>(14) 99864-4438</p>
               </div>
 
               <div className="contato-item">
-                <img src="public/footerimg/map-pinned.png" alt="Imagem Mapa" />
+                <img src="/footerimg/map-pinned.png" alt="Imagem Mapa" />
                 <p>Bauru-SP</p>
               </div>
             </div>

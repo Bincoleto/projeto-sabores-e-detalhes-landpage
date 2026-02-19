@@ -1,27 +1,29 @@
 import { useState } from "react";
 
 function Galeria() {
-  const [imagemSelecionada, setImagemSelecionada] = useState<string | null>(null);
+  const [imagemSelecionada, setImagemSelecionada] = useState<string | null>(
+    null,
+  );
 
   const imagens = [
-    "public/galeria/1.png",
-    "public/galeria/2.png",
-    "public/galeria/3.png",
-    "public/galeria/4.png",
-    "public/galeria/5.png",
-    "public/galeria/6.png",
-    "public/galeria/7.png",
-    "public/galeria/8.png",
-    "public/galeria/9.png",
-    "public/galeria/10.png",
-    "public/galeria/15.jpg",
-    "public/galeria/11.jpg",
-    "public/galeria/12.jpg",
-    "public/galeria/13.jpg",
-    "public/galeria/16.jpg",
-    "public/galeria/14.jpg",
-    "public/galeria/17.jpg",
-    "public/galeria/18.jpg",
+    "/galeria/1.png",
+    "/galeria/2.png",
+    "/galeria/3.png",
+    "/galeria/4.png",
+    "/galeria/5.png",
+    "/galeria/6.png",
+    "/galeria/7.png",
+    "/galeria/8.png",
+    "/galeria/9.png",
+    "/galeria/10.png",
+    "/galeria/15.jpg",
+    "/galeria/11.jpg",
+    "/galeria/12.jpg",
+    "/galeria/13.jpg",
+    "/galeria/16.jpg",
+    "/galeria/14.jpg",
+    "/galeria/17.jpg",
+    "/galeria/18.jpg",
   ];
 
   return (
