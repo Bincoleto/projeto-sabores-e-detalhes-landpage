@@ -1,6 +1,6 @@
 <h1>Landpage Sabores & Detalhes</h1>
 
-<h2>Projeto desenvolvido utilizando as seguintes ferramtentas</h2>
+<h2>Projeto desenvolvido utilizando as seguintes ferramentas</h2>
 <ul>
   <li>React</li>
   <li>Typescript</li>
