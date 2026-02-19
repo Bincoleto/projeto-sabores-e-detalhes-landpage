@@ -103,7 +103,7 @@ function Pedido() {
                         <div className="faq-item-titulo"
                             onClick={() => setMostraAlteracao(!mostrarAlteracao)}
                             style={{ cursor: "pointer" }}>
-                            <img src="/img-faq/Atualizar.png" alt="Retirada e Entrega" />
+                            <img src="/img-faq/atualizar.png" alt="Retirada e Entrega" />
                             <h3>Alterações e Cancelamentos</h3>
                         </div>
 
@@ -162,6 +162,7 @@ function Pedido() {
 }
 
 export default Pedido;
+
 
 
 
